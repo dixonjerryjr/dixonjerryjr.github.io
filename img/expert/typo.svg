@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="812px" height="537px" viewBox="0 0 812 537" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Polish" transform="translate(-80.000000, -2717.000000)">
+            <g id="Group-10" transform="translate(80.000000, 2708.000000)">
+                <text id="Typography" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="36" font-weight="300" fill="#9B9B9B">
+                    <tspan x="317" y="35">Typography</tspan>
+                </text>
+                <g id="Group-3" transform="translate(0.000000, 79.000000)">
+                    <g id="Group-2-Copy">
+                        <polygon id="Rectangle-2" fill="#9B9B9B" opacity="0.4" points="0 234.950096 399.549042 234.950096 399.549042 309.666027 0 309.666027"></polygon>
+                        <polygon id="Rectangle-2" fill="#9B9B9B" opacity="0.4" points="0 157.083493 399.549042 157.083493 399.549042 231.799424 0 231.799424"></polygon>
+                        <text id="Medium:-24,-16,-11-p" font-family="HiraMinPro-W3, Hiragino Mincho Pro" font-size="16.2" font-weight="300" fill="#000000">
+                            <tspan x="16.6854566" y="250.308349">Medium: 24, 16, 11 px </tspan>
+                        </text>
+                        <polygon id="Rectangle-2" fill="#9B9B9B" opacity="0.4" points="0 313.716891 399.549042 313.716891 399.549042 388.432821 0 388.432821"></polygon>
+                        <polygon id="Rectangle-2" fill="#9B9B9B" opacity="0.404754" points="0 78.7667946 399.549042 78.7667946 399.549042 153.482726 0 153.482726"></polygon>
+                        <polygon id="Rectangle-2" fill="#9B9B9B" opacity="0.4" points="0 392.033589 399.549042 392.033589 399.549042 466.74952 0 466.74952"></polygon>
+                        <polygon id="Rectangle-2" fill="#9B9B9B" opacity="0.4046875" points="0.450958286 0 400 0 400 74.7159309 0.450958286 74.7159309"></polygon>
+                        <text id="SF-Compact-Display" font-family="HiraMinPro-W3, Hiragino Mincho Pro" font-size="21.6" font-weight="300" fill="#000000">
+                            <tspan x="97.1853209" y="25.3013436">SF Compact Display</tspan>
+                        </text>
+                        <text id="Heavy:-20-px" font-family="HiraMinPro-W3, Hiragino Mincho Pro" font-size="16.2" font-weight="300" fill="#000000">
+                            <tspan x="16.6854566" y="94.1170825">Heavy: 20 px </tspan>
+                        </text>
+                        <text id="Light:-36,-25,-22,-2" font-family="HiraMinPro-W3, Hiragino Mincho Pro" font-size="16.2" font-weight="300" fill="#000000">
+                            <tspan x="16.6854566" y="408.292035">Light: 36, 25, 22, 20, 18, 14, 12, 11 px</tspan>
+                        </text>
+                        <text id="Regular:-59,-20,-18," font-family="HiraMinPro-W3, Hiragino Mincho Pro" font-size="16.2" font-weight="300" fill="#000000">
+                            <tspan x="16.6854566" y="329.075144">Regular: 59, 20, 18, 14, 10 px</tspan>
+                        </text>
+                        <text id="Semi-Bold:-36,-14-px" font-family="HiraMinPro-W3, Hiragino Mincho Pro" font-size="16.2" font-weight="300" fill="#000000">
+                            <tspan x="16.6854566" y="172.441747">Semi Bold: 36, 14 px</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-2-Copy-2" transform="translate(413.000000, 0.000000)">
+                        <polygon id="Rectangle-2" fill-opacity="0.12" fill="#8E8E93" points="0 187.790743 399 187.790743 399 277.858245 0 277.858245"></polygon>
+                        <polygon id="Rectangle-2" fill-opacity="0.12" fill="#8E8E93" points="0 94.12054 399 94.12054 399 184.188042 0 184.188042"></polygon>
+                        <text id="Aa-Zz-SF-Compact-Dis" font-family="SFCompactDisplay-Medium, SF Compact Display" font-size="16.2" font-weight="400" fill="#4A4A4A">
+                            <tspan x="180.266455" y="210.474494">Aa Zz</tspan>
+                            <tspan x="128.783203" y="229.474494">SF Compact Display</tspan>
+                            <tspan x="170.434131" y="248.474494">Medium</tspan>
+                        </text>
+                        <polygon id="Rectangle-2" fill-opacity="0.12" fill="#8E8E93" points="0 282.811958 399 282.811958 399 372.87946 0 372.87946"></polygon>
+                        <polygon id="Rectangle-2" fill-opacity="0.12" fill="#8E8E93" points="0 0 399 0 399 90.0675024 0 90.0675024"></polygon>
+                        <polygon id="Rectangle-2" fill-opacity="0.12" fill="#8E8E93" points="0 376.932498 399 376.932498 399 467 0 467"></polygon>
+                        <text id="Aa-Zz-SF-Compact-Dis" font-family="SFCompactDisplay-Heavy, SF Compact Display" font-size="16.2" font-weight="600" fill="#4A4A4A">
+                            <tspan x="179.182764" y="22.2054002">Aa Zz</tspan>
+                            <tspan x="123.958008" y="41.2054002">SF Compact Display</tspan>
+                            <tspan x="175.686475" y="60.2054002">Heavy</tspan>
+                        </text>
+                        <text id="Aa-Zz-SF-Compact-Dis" font-family="SFCompactDisplay-Light, SF Compact Display" font-size="16.2" font-weight="300" fill="#4A4A4A">
+                            <tspan x="180.780615" y="399.616249">Aa Zz</tspan>
+                            <tspan x="131.120654" y="418.616249">SF Compact Display</tspan>
+                            <tspan x="182.026465" y="437.616249">Light</tspan>
+                        </text>
+                        <text id="Aa-Zz-SF-Compact-Dis" font-family="SFCompactDisplay-Regular, SF Compact Display" font-size="16.2" font-weight="normal" fill="#4A4A4A">
+                            <tspan x="180.606592" y="305.495709">Aa Zz</tspan>
+                            <tspan x="130.282178" y="324.495709">SF Compact Display</tspan>
+                            <tspan x="172.431445" y="343.495709">Regular</tspan>
+                        </text>
+                        <text id="Aa-Zz-SF-Compact-Dis" font-family="SFCompactDisplay-Semibold, SF Compact Display" font-size="16.2" font-weight="500" fill="#4A4A4A">
+                            <tspan x="179.985645" y="116.804291">Aa Zz</tspan>
+                            <tspan x="127.525488" y="135.804291">SF Compact Display</tspan>
+                            <tspan x="163.125146" y="154.804291">Semi Bold</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

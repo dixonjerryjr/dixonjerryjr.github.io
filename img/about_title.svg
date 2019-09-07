@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="252px" height="105px" viewBox="0 0 252 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>new_logo copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="49" font-weight="300" fill="#000144">
+            <tspan x="47.7025" y="47.96">ABOUT</tspan>
+        </text>
+        <filter x="-5.2%" y="-8.8%" width="110.3%" height="124.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-3" font-family="HelveticaNeue-UltraLight, Helvetica Neue" font-size="38" font-weight="200" letter-spacing="7" fill="#000144">
+            <tspan x="92.977" y="109">ME</tspan>
+        </text>
+        <filter x="-10.8%" y="-11.6%" width="121.5%" height="132.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.249971694 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="new_logo-copy" transform="translate(1.000000, -10.000000)">
+            <g id="ABOUT" fill="#000144" fill-opacity="1">
+                <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                <use xlink:href="#text-1"></use>
+            </g>
+            <path d="M0,63.5 L250,63.5" id="Line-2" stroke="#FD4A03" stroke-width="0.6" stroke-linecap="square"></path>
+            <g id="ME" fill="#000144" fill-opacity="1">
+                <use filter="url(#filter-4)" xlink:href="#text-3"></use>
+                <use xlink:href="#text-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

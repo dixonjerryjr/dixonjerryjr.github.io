@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="665px" height="965px" viewBox="0 0 665 965" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Polish" transform="translate(-153.000000, -1540.000000)">
+            <g id="Group-7" transform="translate(153.000000, 1532.000000)">
+                <text id="Color-Palette" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="36" font-weight="300" fill="#9B9B9B">
+                    <tspan x="237" y="35">Color Palette</tspan>
+                </text>
+                <g id="Group-2" transform="translate(0.000000, 66.000000)">
+                    <polygon id="Rectangle-2" fill="#000000" points="0 782.465674 665 782.465674 665 907 0 907"></polygon>
+                    <polygon id="Rectangle-2" fill-opacity="0.12" fill="#8E8E93" points="0 391.60794 665 391.60794 665 516.142266 0 516.142266"></polygon>
+                    <path d="M0.375,262.197167 L0.375,385.981493 L664.625,385.981493 L664.625,262.197167 L0.375,262.197167 Z" id="Rectangle-2" stroke="#979797" stroke-width="0.75" fill="#FFFFFF"></path>
+                    <text id="#8E8E93" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="32" font-weight="300" fill="#000000">
+                        <tspan x="269.044" y="424.625103">#8E8E93</tspan>
+                    </text>
+                    <polygon id="Rectangle-2" fill="#9B9B9B" points="0 522.894127 665 522.894127 665 647.428453 0 647.428453"></polygon>
+                    <polygon id="Rectangle-2" fill="#B70000" points="0 131.286187 665 131.286187 665 255.820513 0 255.820513"></polygon>
+                    <polygon id="Rectangle-2" fill="#4A4A4A" points="0 653.430108 665 653.430108 665 777.964433 0 777.964433"></polygon>
+                    <polygon id="Rectangle-2" fill="#DB3900" points="0 0 665 0 665 124.534326 0 124.534326"></polygon>
+                    <text id="#DB3900" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="32" font-weight="300" fill="#FFFFFF">
+                        <tspan x="266.388" y="33">#DB3900</tspan>
+                    </text>
+                    <text id="#B70000" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="32" font-weight="300" fill="#FFFFFF">
+                        <tspan x="268.452" y="164.286187">#B70000</tspan>
+                    </text>
+                    <text id="#4A4A4A" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="32" font-weight="300" fill="#FFFFFF">
+                        <tspan x="266.676" y="686.44727">#4A4A4A</tspan>
+                    </text>
+                    <text id="#9B9B9B" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="32" font-weight="300" fill="#FFFFFF">
+                        <tspan x="264.9" y="555.91129">#9B9B9B</tspan>
+                    </text>
+                    <text id="#FFFFFF" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="32" font-weight="300" fill="#000000">
+                        <tspan x="272.052" y="294.83933">#FFFFFF</tspan>
+                    </text>
+                    <text id="#000000" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="32" font-weight="300" fill="#FFFFFF">
+                        <tspan x="270.228" y="813.482837">#000000</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
