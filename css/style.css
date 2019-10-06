@@ -6,180 +6,52 @@ img {
   width: 100%;
 }
 
-header {
-  background-color: #ffffff;
-  text-align: center;
-  padding: 15px 0;
-}
-
-a:hover,
-a:focus {
-  color: #000144;
-  text-decoration: underline;
-  text-decoration-color: #FD4A03;
-  /* Underlining when hovering over a link */
-}
-
-.e_mail {
-  text-decoration: none;
-  color: #4A4A4A;
-}
-
-.e_mail hover {
-  text-decoration: underline !important;
-  text-decoration-color: #FD4A03 !important;
-}
-
 body {
-  font-family: 'Red Hat Text', sans-serif;
-  color: #4A4A4A;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 1.9;
+  margin: 0;
 }
 
-body h1 {
-  font-family: 'Archivo Narrow', sans-serif;
-  color: #4A4A4A;
-}
-
-body h2 {
-  font-family: 'Archivo Narrow', sans-serif;
-  color: #4A4A4A;
-}
-
-#hero {
+#navbar {
   background-color: #ffffff;
-  padding: 50px 15px;
-}
-
-ul.a {
-  padding-left: 1.2em;
-}
-
-ol.a {
-  padding-left: 1.2em;
-}
-
-/* Layout styling */
-.p {
-  position: relative;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 1);
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
   width: 100%;
-  max-width: 1000px;
-}
-
-.main_image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay1 {
-  position: absolute;
   top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #000000;
 }
 
-.overlay2 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #EFC4B4;
-}
-
-.overlay3 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #4A4A4A;
-}
-
-.p:hover .overlay1 {
-  opacity: .95;
-}
-
-.p:hover .overlay2 {
-  opacity: .95;
-}
-
-.p:hover .overlay3 {
-  opacity: .95;
-}
-
-.test_button {
-  text-decoration: none;
-  display: inline-block;
-  width: 150px;
-  height: 40px;
-  padding: 7px;
-  color: #ffffff !important;
-  font-size: 16px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+#navbar a {
+  float: left;
+  color: #8F754F;
   text-align: center;
-  border: 1px solid #ffffff;
+  padding: 12px;
+  text-decoration: none;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  color: #557685;
+}
+
+#navbar-right {
+  float: right;
 }
 
 .container {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 15px;
-}
-
-.container_abt {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 45px;
-  padding-bottom: 0;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.container_abt2 {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px 15px;
-  text-align: left;
-}
-
-.container_nav {
+  background-color: #ffffff;
+  padding: 25px 25px;
+  margin: auto;
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 15px;
-}
-
-.logo {
-  width: auto;
-  float: left;
-  padding-top: 5px;
-  height: 35px;
-  padding-left: 25px;
+  top: 0;
 }
 
 .container2 {
@@ -195,13 +67,6 @@ ol.a {
   margin-right: auto;
 }
 
-.con_container {
-  padding: 75px 15px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .container33 {
   padding: 50px 15px;
   max-width: 600px;
@@ -209,275 +74,243 @@ ol.a {
   margin-right: auto;
 }
 
-.container333 { 
-  padding-top: 50px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 0;
-  max-width: 350px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.title_container {
-  max-width: 350px;
-  margin: auto;
-}
-
-.w_container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 45px 15px;
-}
-
-/* Container holding the image and the text */
-.proj_1 {
-  position: relative;
-  text-align: left;
-  color: white;
-}
-
 .button {
-  display: inline-block;
-  color: #ffffff !important;
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: 100;
-  padding: 7px;
-  border: 1px solid #ffffff;
-}
-
-.button2 {
-  display: inline-block;
-  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  color: #000000 !important;
-  /* needed to override the default link color */
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 200;
-  padding: 7px;
-  border-radius: 5px;
-  border: 1px solid #000000;
-}
-
-.site-nav {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background: #000000;
-  height: 0px;
-  overflow: hidden;
-}
-
-.site-nav--open {
-  width: 100%;
-  padding: 0 10%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 8888;
-  background: #000144;
-  opacity: .98;
-}
-
-.site-nav--open li {
-  padding-top: 80px;
-  padding-bottom: 20px;
-}
-
-.site-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.site-nav li {}
-
-.site-nav a {
-  padding: 2em 6em;
-  color: #FFFFFF !important;
-  font-family: 'Red Hat Text', sans-serif;
-  font-weight: normal;
-  letter-spacing: 1px;
-  font-weight: 100;
-  font-style: normal;
-  font-size: 16px;
-  text-transform: uppercase;
-  text-decoration: none;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #8F754F;
+  color: #557685;
   text-align: center;
-}
-
-.site-nav a:visited {
-  color: #000000;
-}
-
-.site-nav a:hover {
-  color: #fc55cf;
-  text-decoration: underline;
-}
-
-.site-nav a:active {
-  text-decoration: underline;
-}
-
-.menu-toggle {
-  padding: 9px 10px;
-  position: sticky;
-  float: right;
-  top: .90em;
-  z-index: 9999;
-  font-style: normal;
-}
-
-.hamburger {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
   margin: 5px;
 }
 
-.hamburger,
-.hamburger::before,
-.hamburger::after {
-  content: '';
-  display: block;
-  background: #FD4A03;
-  height: 2.75px;
-  width: 1.75em;
-  border-radius: 3px;
-  transition: all ease-in 500ms;
-}
-
-.hamburger::before {
-  transform: translateY(-6px);
-}
-
-.hamburger::after {
-  transform: translateY(3px);
-}
-
-.open .hamburger {
-  transform: rotate(45deg);
-}
-
-.open .hamburger::before {
-  opacity: 0;
-}
-
-.open .hamburger::after {
-  transform: translateY(-3px) rotate(-90deg);
-}
-
-.proj_3 {
+.button span {
+  cursor: pointer;
+  display: inline-block;
   position: relative;
-  text-align: left;
-  color: black;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.img-butt span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.img-butt span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.img-butt:hover span {
+  padding-right: 25px;
+}
+
+.img-butt:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.bg-gold {
+  height: 100px;
+  background: -webkit-linear-gradient(110deg, #557685 60%, #A3B5BD 60%);
+  background: -o-linear-gradient(110deg, #557685 60%, #A3B5BD 60%);
+  background: -moz-linear-gradient(110deg, #557685 60%, #A3B5BD 60%);
+  background: linear-gradient(110deg, #557685 60%, #A3B5BD 60%);
+}
+
+footer {
+  -webkit-box-shadow: 0px -2px 2px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px -2px 2px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px -2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+.social-icons {
+  display: inline-block;
+  height: 40px;
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+.social-icons i {
+  padding: 10px;
+  transition: all ease-in-out 150ms;
+}
+
+.social-icons a {
+  color: #ffffff;
+}
+
+.footer-container {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 10px;
+  position: relative;
+  z-index: 1;
+  height: 150px;
+}
+
+/* Add padding BETWEEN each column */
+.proj-row,
+.proj-row>.proj-col {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.proj-col {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.proj-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px 20px;
+  /* Some padding */
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #8F754F;
+  /* Gray border */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  color: #557685;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  width: 30%;
+  padding: 12px 20px;
+  cursor: pointer;
+  margin: auto;
+  background-color: white;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #8F754F;
+  color: #557685;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #557685;
+  color: white;
 }
 
 .row::after {
   content: "";
   clear: both;
   display: block;
+  padding-top: 25px;
 }
 
-/* Style the Image Used to Trigger the Modal */
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+ul.a {
+  padding-left: 1.2em;
 }
 
-#myImg:hover {
-  opacity: 0.7;
+ol.a {
+  padding-left: 1.2em;
 }
 
-#page-header {
- width: 100%;
- height: 300px;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  padding-top: 100px;
-  /* Location of the box */
-  left: 0;
-  top: 0;
+.proj-col {
   width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0);
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.9);
-  /* Black w/ opacity */
 }
 
-/* Modal Content (Image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@keyframes zoom {
-  from {
-    transform: scale(0)
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  .hero-container {
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    height: 400px;
   }
 
-  to {
-    transform: scale(1)
+  .footer-container {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10px;
+    position: relative;
+    z-index: 1;
+    height: 150px;
   }
-}
 
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
+  .bg-container {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('img/heroback.svg') no-repeat;
+    opacity: .4;
+    background-size: 100%;
+    height: 400px;
+  }
 
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
+  .container {
+    background-color: #ffffff;
+    padding: 25px 25px;
+    margin: auto;
+    max-width: 1200px;
+    top: 0;
+  }
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px) {
-  .modal-content {
-    width: 100%;
+  .e_mail {
+    text-decoration: underline;
+    color: #4A4A4A;
+  }
+
+  .e_mail hover {
+    text-decoration-color: #FD4A03;
   }
 
   /* Style inputs with type="text", select elements and textareas */
@@ -488,7 +321,7 @@ ol.a {
     /* Some padding */
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #8F754F;
     /* Gray border */
     box-sizing: border-box;
     /* Make sure that padding and width stays in place */
@@ -496,320 +329,104 @@ ol.a {
 
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    width: 30%;
-    background-color: #4A4A4A;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-    margin: auto;
+    width: 25%;
   }
 
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #FD4A03;
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
   }
 
-  footer {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: auto;
-
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
   }
 
-  .footer_con {
-    max-width: 800px;
+  .column2 {
+    float: left;
+    width: 50%;
+    padding: 5px;
   }
 
-  .social-icons {
-    display: inline-block;
-    height: 40px;
-    margin: 0 5px;
-    font-size: 20px;
-
+  /* Add a background color and some padding around the form */
+  .con_container {
+    padding: 50px 15px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .social-icons i {
-    padding: 10px;
-    transition: all ease-in-out 150ms;
+  .proj-col {
+    width: 100%;
   }
 
-  .social-icons a {
-    color: #000144;
+  .col-md-4 {
+    width: 33.33%;
   }
 
+  .col-md-5 {
+    width: 41.66%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-7 {
+    width: 58.33%;
+  }
+
+  .col-md-8 {
+    width: 66.66%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 20px;
+  }
 }
 
-  /* ==============================
-Medium devices (640px and larger)
-================================= */
-  @media only screen and (min-width: 640px) {
-    header {
-      padding: 20px 0 13px;
-    }
-
-    .menu-toggle {
-      display: none;
-    }
-
-    .site-nav {
-      position: absolute;
-      top: 100%;
-      right: 25px;
-      background: #ffffff;
-      height: 0px;
-      overflow: hidden;
-    }
-
-    .site-nav {
-      height: auto;
-      position: relative;
-      float: right;
-      background: none;
-    }
-
-    .site-nav li {
-      display: inline-block;
-    }
-
-    .site-nav a {
-      color: #000144 !important;
-      padding: 0;
-      margin-left: 3em;
-    }
-
-    .site-nav a:hover {
-      color: #000144 !important;
-      text-decoration-color: #FD4A03;
-      padding: 0;
-      margin-left: 3em;
-    }
-
-    .e_mail {
-      text-decoration: underline;
-      color: #4A4A4A;
-    }
-
-    .e_mail hover {
-      text-decoration-color: #FD4A03;
-    }
-
-    .button {
-      display: inline-block;
-      color: #ffffff !important;
-      text-decoration: none;
-      font-size: 16px;
-      font-weight: 200;
-      padding: 7px;
-      border: 1px solid #ffffff;
-    }
-
-    .w_container {
-      max-width: 1200px;
-      margin: auto;
-      padding-top: 70px;
-    }
-
-    .n_container {
-      margin: auto;
-      max-width: 1200px;
-    }
-
-    .column {
-      float: left;
-      width: 33.33%;
-      padding: 5px;
-    }
-
-    .row2::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-
-    .column2 {
-      float: left;
-      width: 50%;
-      padding: 5px;
-    }
-
-    .col-md-6 {
-      width: 50%;
-    }
-
-    [class*="col-"] {
-      float: left;
-      padding: 20px;
-    }
-
-    /* Style inputs with type="text", select elements and textareas */
-    input[type=text], select, textarea {
-      width: 100%;
-      /* Full width */
-      padding: 12px 20px;
-      /* Some padding */
-      margin: 8px 0;
-      display: inline-block;
-      border: 1px solid #ccc;
-      /* Gray border */
-      box-sizing: border-box;
-      /* Make sure that padding and width stays in place */
-    }
-
-    /* Style the submit button with a specific background color etc */
-    input[type=submit] {
-      width: 25%;
-      background-color: #4A4A4A;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      cursor: pointer;
-      margin: auto;
-    }
-
-    /* When moving the mouse over the submit button, add a darker green color */
-    input[type=submit]:hover {
-      background-color: #FD4A03;
-    }
-
-    /* Add a background color and some padding around the form */
-    .con_container {
-      padding: 50px 15px;
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .col-md-3 {
-      width: 25%;
-    }
-
-    .col-md-4 {
-      width: 33.33%;
-    }
-
-    .col-md-8 {
-      width: 66.66%;
-    }
-
-    .col-md-9 {
-      width: 75%;
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 100px;
-    }
-
-    .social-icons {
-      display: inline-block;
-      height: 40px;
-      margin: 0 5px;
-      font-size: 25px;
-
-    }
-
-    .social-icons i {
-      padding: 10px;
-
-      transition: all ease-in-out 150ms;
-    }
-
-    .social-icons a {
-      color: #000144;
-    }
-
-  }
-
-  /* ==============================
+/* ==============================
 Large devices (1024px or larger)
 ================================= */
-  @media only screen and (min-width: 1024px) {
-    .col-lg-8 {
-      width: 66.66%;
-    }
-
-    .col-lg-7 {
-      width: 58.33%;
-    }
-
-    .col-lg-5 {
-      width: 41.66%;
-    }
-
-    .col-lg-4 {
-      width: 33.33%;
-    }
-
-    .col-lg-3 {
-      width: 25%;
-    }
-
-    .container3 {
-      max-width: 1000px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .w_container {
-      max-width: 1400px;
-      margin: auto;
-    }
-
-    .n_container {
-      margin: auto;
-      max-width: 1400px;
-    }
-
-    .txt_wrp {
-      margin: auto;
-      padding-top: 30%;
-    }
-
-
-
+@media only screen and (min-width: 1024px) {
+  .col-lg-4 {
+    width: 33.33%;
   }
 
-  /* ==============================
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  .col-lg-7 {
+    width: 58.33%;
+  }
+
+  .col-lg-8 {
+    width: 66.66%;
+  }
+
+  .proj-col {
+    width: 50%;
+  }
+}
+
+/* ==============================
 X-large devices (1440px or larger)
 ================================= */
-  @media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1440px) {
+  .proj-col {
+    width: 25%;
+  }
+}
 
-  /* ==============================
+/* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-  @media only screen and (min-width: 1920px) {
-
-    footer {
-      text-align: center;
-      margin-top: 200px;
-    }
-
-    .social-icons {
-      display: inline-block;
-      height: 40px;
-      margin: 0 5px;
-      font-size: 25px;
-    }
-
-    .social-icons i {
-      padding: 10px;
-      transition: all ease-in-out 150ms;
-    }
-
-    .social-icons a {
-      color: #000144;
-    }
-
-    .container333 {
-      padding-top: 175px;
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-bottom: 0;
-      max-width: 500px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-
-  }
+@media only screen and (min-width: 1920px) {}
