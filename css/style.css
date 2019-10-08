@@ -14,15 +14,14 @@ body {
   background-color: #ffffff;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 1);
   padding-bottom: 50px;
-  padding-left: 50px;
+  padding-left: 10px;
   padding-right: 50px;
   width: 100%;
   top: 0;
 }
 
 #navbar a {
-  float: left;
-  color: #8F754F;
+
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -38,12 +37,125 @@ body {
   transition: 0.4s;
 }
 
-#navbar a:hover {
-  color: #557685;
+#navbar #logo a {
+  float: left;
 }
 
-#navbar-right {
-  float: right;
+
+
+
+.site-nav {
+position: absolute;
+top: 100%;
+right: 0;
+background: #000000;
+height: 0px;
+overflow: hidden;
+}
+
+.site-nav--open {
+width: 100%;
+padding: 0 10%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 1;
+background: rgba(85, 118, 133, 0.9);
+}
+
+.site-nav--open li {
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+
+.site-nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.site-nav li {}
+
+.site-nav a {
+padding: 2em 6em;
+color: #FFFFFF;
+font-family: "Montserrat";
+font-weight: normal;
+letter-spacing: 1px;
+font-weight: 400;
+font-style: normal;
+font-size: 15px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.site-nav a:visited {
+color: #ffffff;
+}
+
+.site-nav a:hover {
+color: #fc55cf;
+text-decoration: line-through;
+}
+
+.site-nav a:active {
+color: #ffffff;
+text-decoration: line-through;
+}
+
+.menu-toggle {
+padding: 9px 10px;
+position: absolute;
+top: .90em;
+right: .5em;
+z-index: 2;
+font-style: normal;
+}
+
+.hamburger {
+margin: 5px;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+content: '';
+display: block;
+background: #8F754F;
+height: 2.75px;
+width: 1.5em;
+border-radius: 4px;
+transition: all ease-in 500ms;
+}
+
+.hamburger::before {
+transform: translateY(-6px);
+}
+
+.hamburger::after {
+transform: translateY(3px);
+}
+
+.open .hamburger {
+transform: rotate(45deg);
+background: #ffffff;
+}
+
+.open .hamburger::before {
+opacity: 0;
+}
+
+.open .hamburger::after {
+transform: translateY(-3px) rotate(-90deg);
+background: #ffffff;
+}
+
+.e_mail{
+  color: #8F754F;
 }
 
 .container {
@@ -52,6 +164,10 @@ body {
   margin: auto;
   max-width: 1200px;
   top: 0;
+}
+
+.hero-container {
+  padding-top: 25px;
 }
 
 .container2 {
@@ -232,7 +348,7 @@ input[type=submit] {
   color: #557685;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 16px;
+  font-size: 20px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -240,7 +356,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #557685;
+  background-color: #8F754F;
   color: white;
 }
 
@@ -268,11 +384,80 @@ Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
   .hero-container {
+    padding-top: 150px;
     margin: auto;
     position: relative;
     z-index: 1;
     height: 400px;
   }
+
+  #navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 1);
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    top: 0;
+  }
+
+  #navbar a {
+    float: left;
+    color: #8F754F;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  #navbar #logo {
+    font-size: 20px;
+    transition: 0.4s;
+  }
+
+  #navbar a:hover {
+    color: #557685;
+  }
+
+  #navbar-right {
+    float: right;
+  }
+
+  .menu-toggle {
+  display: none;
+}
+
+.site-nav {
+   height: auto;
+   position: relative;
+   background: transparent;
+   float: right;
+ }
+ .site-nav li {
+   display: inline-block;
+   border: none;
+ }
+ .site-nav a {
+   color: #000000;
+   font-size: 20px;
+   font-weight: 300;
+   line-height: 25px;
+   border-radius: 4px;
+   padding: 0;
+   margin-left: 20px;
+ }
+ .site-nav a:hover,
+ .site-nav a:focus {
+   padding: 0;
+   margin-left: 20px;
+ }
+ .site-nav a:visited {
+   color: #000000;
+ }
 
   .footer-container {
     text-align: center;
@@ -382,6 +567,10 @@ Medium devices (640px and larger)
     width: 66.66%;
   }
 
+  .e_mail{
+    color: #8F754F;
+  }
+
   [class*="col-"] {
     float: left;
     padding: 20px;
@@ -415,6 +604,11 @@ Large devices (1024px or larger)
   .proj-col {
     width: 50%;
   }
+
+  .e_mail{
+    color: #8F754F;
+  }
+
 }
 
 /* ==============================
@@ -424,6 +618,11 @@ X-large devices (1440px or larger)
   .proj-col {
     width: 25%;
   }
+
+  .e_mail{
+    color: #8F754F;
+  }
+
 }
 
 /* ==============================
