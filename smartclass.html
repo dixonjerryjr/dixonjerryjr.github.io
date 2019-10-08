@@ -7,7 +7,6 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,Lato:100,Lusitana:400,700,Raleway:300,400,500&display=swap" rel="stylesheet">
-  
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <title> Jerry Dixon Design </title>
 </head>
@@ -15,6 +14,7 @@
 <body>
 
   <header>
+
     <div id="navbar">
       <div id="logo">
         <a href="index.html">
@@ -23,10 +23,17 @@
           <span style="font-family: 'Cormorant Garamond', serif; font-weight: 300; color: #8F754F">design</span>
         </a>
       </div>
-      <div id="navbar-right">
-        <a href="about.html">About</a>
-        <a href="work.html">Work</a>
-        <a href="contact.html">Contact</a>
+      <nav class="site-nav">
+        <div id="navbar-right">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          </div>
+      </nav>
+      <div class="menu-toggle">
+        <div class="hamburger"></div>
       </div>
     </div>
   </header>
