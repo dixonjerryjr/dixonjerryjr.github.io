@@ -83,7 +83,7 @@ list-style: none;
 .site-nav a {
 padding: 2em 6em;
 color: #FFFFFF;
-font-family: "Montserrat";
+font-family: 'Cormorant Garamond', serif;
 font-weight: normal;
 letter-spacing: 1px;
 font-weight: 400;
@@ -97,14 +97,11 @@ text-decoration: none;
 color: #ffffff;
 }
 
-.site-nav a:hover {
-color: #fc55cf;
-text-decoration: line-through;
-}
+
 
 .site-nav a:active {
 color: #ffffff;
-text-decoration: line-through;
+
 }
 
 .menu-toggle {
