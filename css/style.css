@@ -21,7 +21,6 @@ body {
 }
 
 #navbar a {
-
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -40,8 +39,6 @@ body {
 #navbar #logo a {
   float: left;
 }
-
-
 
 
 .site-nav {
@@ -163,8 +160,12 @@ background: #ffffff;
   top: 0;
 }
 
-.hero-container {
+.hero-container1 {
   padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  letter-spacing: 0;
+
 }
 
 .container2 {
@@ -380,12 +381,49 @@ ol.a {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+
   .hero-container {
     padding-top: 150px;
     margin: auto;
     position: relative;
     z-index: 1;
     height: 400px;
+  }
+
+  .bg-container {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('img/heroback.svg') no-repeat;
+    opacity: .4;
+    background-size: 100%;
+    height: 400px;
+    text-align: center;
+  }
+
+  .hero-container1 {
+    padding-top: 150px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    height: 400px;
+  }
+
+  .bg-container1 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('img/heroback.svg') no-repeat;
+    opacity: .4;
+    background-size: 100%;
+    height: 400px;
+    text-align: center;
   }
 
   #navbar {
@@ -405,7 +443,7 @@ Medium devices (640px and larger)
     padding: 12px;
     text-decoration: none;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 25px;
     border-radius: 4px;
@@ -465,18 +503,7 @@ Medium devices (640px and larger)
     height: 150px;
   }
 
-  .bg-container {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: url('img/heroback.svg') no-repeat;
-    opacity: .4;
-    background-size: 100%;
-    height: 400px;
-  }
+
 
   .container {
     background-color: #ffffff;
@@ -618,6 +645,29 @@ X-large devices (1440px or larger)
 
   .e_mail{
     color: #8F754F;
+  }
+
+  .hero-container1 {
+    padding-top: 250px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    height: 700px;
+    letter-spacing: 5px;
+  }
+
+  .bg-container1 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('img/heroback.svg') no-repeat;
+    opacity: .4;
+    background-size: 100%;
+    height: 700px;
+    text-align: center;
   }
 
 }
