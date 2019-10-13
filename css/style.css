@@ -22,9 +22,14 @@ body {
   background: radial-gradient(34.21% 53.74% at 65.79% 50%, rgba(124, 124, 124, 0) 0%, #363636 100%), #363636;
 }
 
-.lcon {
-  height: 10%;
+.lcon img {
+  position: absolute;
+  top: 25px;
+  left: 5%;
+
+  max-width: 7%;
 }
+
 
 .logo {
   position: absolute;
@@ -38,7 +43,6 @@ body {
   font-family: 'Roboto';
   text-align: left;
   padding: 25px 25px;
-  padding-bottom: 150px;
   margin-top: 80px;
   margin-left: auto;
   max-width: 1200px;
@@ -46,6 +50,8 @@ body {
   height: 100%;
   overflow: scroll;
 }
+
+
 
 .containerm p {
   margin: 3px 0;
@@ -149,7 +155,7 @@ body {
 
 .menu-toggle {
   position: absolute;
-  top: 40px;
+  top: 35px;
   right: 8px;
   z-index: 2;
   font-style: normal;
@@ -325,7 +331,6 @@ footer {
   text-align: center;
   color: #CFCFCF;
   padding-top: 10px;
-
   bottom: 0;
   width: 100%;
   z-index: 1;
@@ -353,7 +358,7 @@ footer {
 
 /* Content */
 .content {
-  background-color: white;
+  background-color: #363636;
   padding: 10px;
 }
 
@@ -425,8 +430,6 @@ Medium devices (640px and larger)
   .background {
     height: 100%;
   }
-
-
 
   .menu-toggle {
     position: absolute;
@@ -593,6 +596,10 @@ Large devices (1024px or larger)
     display: none;
   }
 
+  .proj-row {
+    margin-right: 50px;
+  }
+
   .rec {
     position: fixed;
     width: 50px;
@@ -710,10 +717,9 @@ X-large devices (1440px or larger)
     padding-top: 45px;
   }
 
-.pic {
-  position: fixed;
-}
-
+  .pic {
+    position: fixed;
+  }
 
   .proj-col {
     width: 25%;
