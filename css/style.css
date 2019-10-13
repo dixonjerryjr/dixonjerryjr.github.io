@@ -150,7 +150,7 @@ body {
 
 .menu-toggle {
   position: absolute;
-  top: 30px;
+  top: 40px;
   right: 8px;
   z-index: 2;
   font-style: normal;
@@ -427,6 +427,9 @@ Medium devices (640px and larger)
     height: 100%;
   }
 
+  .menu-toggle {
+  top: 30px;
+}
 
 
   .hero-container {
