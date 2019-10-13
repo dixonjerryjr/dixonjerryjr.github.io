@@ -595,6 +595,13 @@ Large devices (1024px or larger)
   footer {
     display: none;
   }
+  
+  .lcon img {
+  position: absolute;
+  top: 25px;
+  left: 5%;
+  max-width: 3%;
+}
 
   .proj-row {
     margin-right: 50px;
