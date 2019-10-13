@@ -26,7 +26,6 @@ body {
   position: absolute;
   top: 25px;
   left: 5%;
-
   max-width: 7%;
 }
 
@@ -49,6 +48,17 @@ body {
   top: 0;
   height: 100%;
   overflow: scroll;
+}
+.container {
+font-family: 'Roboto';
+text-align: left;
+padding: 25px 25px;
+margin: auto;
+max-width: 1200px;
+margin-top: 75px;
+top: 0;
+height: 100%;
+overflow: scroll;
 }
 
 
@@ -370,28 +380,32 @@ input[type=text], select, textarea {
   /* Some padding */
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #8F754F;
+  border: 1px solid #CFCFCF;
   /* Gray border */
   box-sizing: border-box;
   /* Make sure that padding and width stays in place */
-  color: #557685;
+  background-color: #363636;
+}
+
+input, select, textarea{
+    color: #CFCFCF;
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  width: 30%;
-  padding: 12px 20px;
+  width: 100px;
+  padding: 10px;
   cursor: pointer;
   margin: auto;
-  background-color: white;
+  background-color: #363636;
   border-radius: 0;
   border-style: solid;
   border-width: 1px;
-  border-color: #8F754F;
-  color: #557685;
+  border-color: #CFCFCF;
+  color: #BD9C68;
   text-align: center;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -399,7 +413,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #8F754F;
+  background-color: #BD9C68;
   color: white;
 }
 
@@ -429,6 +443,17 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) {
   .background {
     height: 100%;
+  }
+
+  .container {
+
+  padding-bottom: 0;
+  }
+
+
+
+  .proj-row {
+    margin-bottom: 150px;
   }
 
   .menu-toggle {
@@ -505,7 +530,7 @@ Medium devices (640px and larger)
     /* Some padding */
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #8F754F;
+    border: 1px solid #CFCFCF;
     /* Gray border */
     box-sizing: border-box;
     /* Make sure that padding and width stays in place */
@@ -595,13 +620,14 @@ Large devices (1024px or larger)
   footer {
     display: none;
   }
-  
+
+
   .lcon img {
-  position: absolute;
-  top: 25px;
-  left: 5%;
-  max-width: 3%;
-}
+    position: absolute;
+    top: 25px;
+    left: 5%;
+    max-width: 3%;
+  }
 
   .proj-row {
     margin-right: 50px;
