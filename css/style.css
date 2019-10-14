@@ -617,6 +617,16 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  
+  .menu-toggle {
+  position: fixed;
+  top: 35px;
+  right: 8px;
+  z-index: 2;
+  font-style: normal;
+  margin: auto;
+}
+  
   footer {
     display: none;
   }
