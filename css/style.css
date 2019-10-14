@@ -689,7 +689,7 @@ Large devices (1024px or larger)
     width: 35%;
     height: 50px;
     left: 0;
-    bottom: 0;
+    top: 100%;
     background: #BD9C68;
     -webkit-box-shadow: 0px -2px 2px 0px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px -2px 2px 0px rgba(0, 0, 0, 0.2);
