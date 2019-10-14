@@ -47,7 +47,7 @@ body {
   max-width: 1200px;
   top: 0;
   height: 100%;
-  overflow: scroll;
+  
 }
 .container {
 font-family: 'Roboto';
@@ -58,7 +58,7 @@ max-width: 1200px;
 margin-top: 75px;
 top: 0;
 height: 100%;
-overflow: scroll;
+
 }
 
 
@@ -655,7 +655,7 @@ Large devices (1024px or larger)
   .social-icons {
     height: 100%;
     font-size: 20px;
-    overflow: scroll;
+    overflow: auto;
   }
 
   .social-icons i {
