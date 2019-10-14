@@ -457,7 +457,7 @@ Medium devices (640px and larger)
   }
 
   .menu-toggle {
-    position: absolute;
+    position: fixed;
     top: 30px;
     right: 8px;
     z-index: 2;
