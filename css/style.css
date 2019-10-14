@@ -47,7 +47,7 @@ body {
   max-width: 1200px;
   top: 0;
   height: 100%;
-  
+
 }
 .container {
 font-family: 'Roboto';
@@ -457,7 +457,7 @@ Medium devices (640px and larger)
   }
 
   .menu-toggle {
-    position: fixed;
+    position: absolute;
     top: 30px;
     right: 8px;
     z-index: 2;
@@ -617,16 +617,17 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-  
+
+
   .menu-toggle {
-  position: fixed;
-  top: 35px;
-  right: 8px;
-  z-index: 2;
-  font-style: normal;
-  margin: auto;
-}
-  
+    position: fixed;
+    top: 35px;
+    right: 8px;
+    z-index: 2;
+    font-style: normal;
+    margin: auto;
+  }
+
   footer {
     display: none;
   }
@@ -665,7 +666,7 @@ Large devices (1024px or larger)
   .social-icons {
     height: 100%;
     font-size: 20px;
-    overflow: auto;
+    overflow: scroll;
   }
 
   .social-icons i {
@@ -693,7 +694,7 @@ Large devices (1024px or larger)
     max-width: 90%;
   }
 
-.rec3 {
+  .rec3 {
     display: block;
     position: fixed;
     width: 35%;
