@@ -1,8 +1,9 @@
-$('.menu-toggle').click(function(){
+let mainNav = document.getElementById('js-menu');
+let navBarToggle = document.getElementById('js-navbar-toggle');
 
- $('.site-nav').toggleClass('site-nav--open', 500);
- $(this).toggleClass('open');
-})
+navBarToggle.addEventListener('click', function () {
+  mainNav.classList.toggle('active');
+});
 
 // create references to the modal...
 var modal = document.getElementById('myModal');
@@ -30,11 +31,7 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
-$('.menu-toggle').click(function(){
 
- $('.site-nav').toggleClass('site-nav--open', 500);
- $(this).toggleClass('open');
-})
 
 // create references to the modal...
 var modal = document.getElementById('myModal');
